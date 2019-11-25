@@ -81,6 +81,9 @@ INSERT INTO PERSON VALUES('Tom', 'Sawyer',4064064452,'Email','1994-12-01', 59715
 INSERT INTO PERSON VALUES('Will', 'Smith',4064064045,'Email','1995-08-04', 59102, ' Address ', '3', '10');
 INSERT INTO PERSON VALUES('Josh', 'Frank',4064063464,'Email','2001-02-17', 59714, ' Address ', '3', '11');
 INSERT INTO PERSON VALUES('Alexa', 'Miller',4066764065,'Email','1999-11-20', 59718, ' Address ', '3', '12');
+INSERT INTO PERSON VALUES('Michelle', 'Kay',4064563464,'Email','2001-12-17', 59714, ' Address ', '3', '13');
+INSERT INTO PERSON VALUES('Kaylee', 'Wells',4066764765,'Email','1999-9-13', 59718, ' Address ', '3', '14');
+
 
 INSERT INTO ADMIN_LEVEL VALUES('1', 'Creator', 'Can change tables and pages');
 INSERT INTO ADMIN_LEVEL VALUES('2', 'Manager', 'Can change pages');
@@ -107,26 +110,26 @@ INSERT INTO REVIEWS VALUES(5, "1" , "2",'1',"You're great");
 INSERT INTO REVIEWS VALUES(5, "1" , "3",'2',"You're great");
 INSERT INTO REVIEWS VALUES(5, "1" , "3",'3',"You're great");
 INSERT INTO REVIEWS VALUES(5, "1" , "4",'4',"You're great");
-INSERT INTO REVIEWS VALUES(5, "1" , "5",'5',"Kinda okay");
-INSERT INTO REVIEWS VALUES(5, "2" , "6",'6',"Kinda okay");
-INSERT INTO REVIEWS VALUES(5, "2" , "1",'7',"Kinda okay");
-INSERT INTO REVIEWS VALUES(5, "2" , "10",'8',"Kinda okay");
-INSERT INTO REVIEWS VALUES(5, "3" , "8",'9',"Kinda okay");
-INSERT INTO REVIEWS VALUES(5, "3" , "7",'10',"Pretty cool");
+INSERT INTO REVIEWS VALUES(3, "1" , "5",'5',"Kinda okay");
+INSERT INTO REVIEWS VALUES(2, "2" , "6",'6',"Kinda okay");
+INSERT INTO REVIEWS VALUES(2, "2" , "1",'7',"Kinda okay");
+INSERT INTO REVIEWS VALUES(3, "2" , "10",'8',"Kinda okay");
+INSERT INTO REVIEWS VALUES(2, "3" , "8",'9',"Kinda okay");
+INSERT INTO REVIEWS VALUES(4, "3" , "7",'10',"Pretty cool");
 INSERT INTO REVIEWS VALUES(5, "3" , "11",'11',"Pretty cool");
-INSERT INTO REVIEWS VALUES(5, "4" , "3",'12',"Pretty cool");
+INSERT INTO REVIEWS VALUES(4, "4" , "3",'12',"Great group member");
 INSERT INTO REVIEWS VALUES(5, "5" , "3",'13',"Pretty cool");
-INSERT INTO REVIEWS VALUES(5, "6" , "4",'14',"Pretty cool");
+INSERT INTO REVIEWS VALUES(4, "6" , "4",'14',"Pretty cool");
 INSERT INTO REVIEWS VALUES(5, "7" , "5",'15',"You're my favorite");
 INSERT INTO REVIEWS VALUES(5, "8" , "2",'16',"You're my favorite");
 INSERT INTO REVIEWS VALUES(5, "9" , "3",'17',"You're my favorite");
 INSERT INTO REVIEWS VALUES(5, "10" , "5",'18',"You're my favorite");
 INSERT INTO REVIEWS VALUES(5, "11" , "4",'19',"You're my favorite");
-INSERT INTO REVIEWS VALUES(5, "12" , "5",'20',"Great group member");
-INSERT INTO REVIEWS VALUES(5, "9" , "2",'21',"Great group member");
-INSERT INTO REVIEWS VALUES(5, "8" , "3",'22',"Great group member");
+INSERT INTO REVIEWS VALUES(4, "12" , "5",'20',"Great group member");
+INSERT INTO REVIEWS VALUES(3, "9" , "2",'21',"Great group member");
+INSERT INTO REVIEWS VALUES(4, "8" , "3",'22',"Great group member");
 INSERT INTO REVIEWS VALUES(5, "6" , "3",'23',"Great group member");
-INSERT INTO REVIEWS VALUES(5, "7" , "4",'24',"You're great");
+INSERT INTO REVIEWS VALUES(3, "7" , "4",'24',"You're great");
 INSERT INTO REVIEWS VALUES(5, "7" , "5",'25',"You're great");
 
 INSERT INTO LOGGED_LOCATION VALUES('1', 'Bozeman', 'Montana', '2019-11-08');
@@ -168,11 +171,11 @@ INSERT INTO CREDIBILITY_SCORE VALUES('3', 1 , 5);
 INSERT INTO CREDIBILITY_SCORE VALUES('4', 2 , 3);
 INSERT INTO CREDIBILITY_SCORE VALUES('5', 4 , 4);
 INSERT INTO CREDIBILITY_SCORE VALUES('6', 5 , 5);
-INSERT INTO CREDIBILITY_SCORE VALUES('7', 1 , 3);
+INSERT INTO CREDIBILITY_SCORE VALUES('7', 1 , 1);
 INSERT INTO CREDIBILITY_SCORE VALUES('8', 5 , 4);
-INSERT INTO CREDIBILITY_SCORE VALUES('9', 4 , 5);
+INSERT INTO CREDIBILITY_SCORE VALUES('9', 4 , 1);
 INSERT INTO CREDIBILITY_SCORE VALUES('10', 5 , 5);
-INSERT INTO CREDIBILITY_SCORE VALUES('11', 5 , 4);
+INSERT INTO CREDIBILITY_SCORE VALUES('11', 5 , 2);
 INSERT INTO CREDIBILITY_SCORE VALUES('12', 1 , 5);
 
 
